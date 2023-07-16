@@ -1,11 +1,11 @@
 'use client'
 import { cn } from '@/lib/utils'
-import { Category } from '@/types'
+import { CategoryType } from '@/types'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
 type Props = {
-	data: Category[]
+	data: CategoryType[]
 }
 
 export default function MainNav({ data }: Props) {
