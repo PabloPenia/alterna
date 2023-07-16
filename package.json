@@ -1,0 +1,10 @@
+{
+	"name": "alterna-ecommerce",
+	"version": "1.0.0",
+	"scripts": {
+		"client-add": "cd ./client && npm install",
+		"admin-add": "cd ./dashboard && npm install",
+		"client-dev": "cd ./client && npm run dev",
+		"admin-dev": "cd ./dashboard && npm run dev"
+	}
+}

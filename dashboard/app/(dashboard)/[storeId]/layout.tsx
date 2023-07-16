@@ -5,8 +5,8 @@ import prismadb from '@/lib/prismadb'
 import Navbar from '@/components/navbar'
 
 export const metadata = {
-	title: '',
-	description: '',
+	title: 'Admin Dashboard',
+	description: 'Admin Dashboard',
 }
 
 type LayoutProps = {
