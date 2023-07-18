@@ -16,8 +16,8 @@ export interface ProductType {
 	price: string
 	isFeatured: boolean
 	category: CategoryType
-	size: Size
-	color: Color
+	size: SizeType
+	color: ColorType
 	images: ImageType[]
 }
 
@@ -26,13 +26,13 @@ export interface ImageType {
 	url: string
 }
 
-export interface Size {
+export interface SizeType {
 	id: string
 	name: string
 	value: string
 }
 
-export interface Color {
+export interface ColorType {
 	id: string
 	name: string
 	value: string
